@@ -1,0 +1,24 @@
+.ans{
+    display: flex;
+    gap: 10px;
+    border: 1px solid;
+    padding: 5px;
+
+}
+.ans input{
+    display: block;
+    font-size: 2em;
+    width: 20px;
+    height: 20px;
+
+}
+.ans div{
+    padding: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid orange;
+}
+.main2{
+    border: 2px solid;
+}

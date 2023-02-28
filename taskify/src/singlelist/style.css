@@ -1,0 +1,69 @@
+.single{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(32, 32, 172);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    transition: 0.1s;
+   
+}
+.single:hover{
+    box-shadow:0px 0px 2px 2px rgba(7, 7, 7, 1);
+    transform: scale(1.03);
+    cursor: grab;
+}
+.single .text{
+    color: rgb(253, 253, 251);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+flex: 4;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 40px;
+    padding: 10px;
+    
+}
+.icon{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    /* flex-wrap: wrap; */
+    color: rgb(192, 192, 10);
+    font-size: 2.8em;
+    justify-content: flex-end;
+  /* border: 2px solid; */
+    
+}
+.icon span{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+
+}
+.icon span:hover .ion{
+    color: yellow;
+    border-radius: 50%;
+    padding:10px;
+    box-shadow:0px 0px 2px 2px rgba(20, 20, 20, 0.4);
+
+}
+.icon span:active .ion{
+    box-shadow: none;
+}
+s{
+    text-decoration-thickness: 4px;
+    text-decoration-color: yellow;
+}
+.edittodo{
+    padding: 10px;
+    font-size: 1.5em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.con{
+  
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  padding: 60px;
+  gap: 50px;
+  background: linear-gradient(45deg,rgb(8, 8, 80),rgb(36, 31, 31));
+}
+h1{
+  color: skyblue;
+  font-size: 3em;
+  font-weight: bold;
+}

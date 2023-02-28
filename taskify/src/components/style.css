@@ -1,0 +1,40 @@
+.input_con{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_con input{
+    outline: none;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 1.5em;
+}
+.input_con button{
+    position: absolute;
+    display: flex;
+    right: 14%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 1px 1px 4px 0px rgba(1,1,10.4);
+}
+.input_con button:hover{
+    background-color: rgb(153, 0, 255);
+}
+.input_con button:active{
+    /* background-color: rgb(153, 0, 255); */
+    box-shadow: none;
+}
+

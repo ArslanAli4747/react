@@ -1,0 +1,58 @@
+.list{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.todos{
+    background-color: rgb(4, 252, 252);
+    align-self: flex-start;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-height: 200px;
+    
+}
+.todos h2{
+    color: black;
+    font-size: 2em;
+}
+.completed{
+    align-self: flex-start;
+    position: relative;
+    background-color: rgb(4, 252, 78);
+
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-height: 200px;
+}
+.completed h2{
+    color: black;
+    font-size: 2em;
+}
+
+@media screen and (max-width:900px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .todos{
+        width: 100%;
+
+    }
+    .completed{
+        width: 100%;
+    }
+    
+}
